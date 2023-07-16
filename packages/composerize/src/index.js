@@ -62,5 +62,5 @@ export default (input: string): ?string => {
         },
     };
 
-    return yamljs.stringify(result, 9, 4).trim();
+    return yamljs.stringify(result, 9, 2).trim();
 };
