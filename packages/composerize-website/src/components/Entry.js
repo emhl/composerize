@@ -4,7 +4,7 @@ import styled from 'styled-components/macro';
 import Section from './Section';
 import TextInput from './TextInput';
 import Code from './Code';
-import CarbonAds from './CarbonAds';
+// import CarbonAds from './CarbonAds';
 
 const Blurb = styled.div`
     line-height: 32px;
@@ -51,7 +51,7 @@ export default function Entry(props) {
                         margin-top: -8px;
                     `}
                 >
-                    <CarbonAds />
+                     {/* <CarbonAds />  */}
                 </div>
             </div>
         </Section>
